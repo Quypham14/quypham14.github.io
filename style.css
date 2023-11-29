@@ -677,19 +677,19 @@ span {
     padding: 1rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
-  .navbar a{
+  .navbar a {
     margin-left: 8%;
   }
   .home {
     flex-direction: column;
   }
   .home-img {
-    order: 1;
-    margin-top: 25%;
-    font-size: 2rem;
+    display: none;
   }
   .home-content {
-    order: 2;
+    order: 1;
+    margin-top: 50%;
+    font-size: 2rem;
   }
   .home-sci {
     display: none;
