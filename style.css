@@ -678,7 +678,7 @@ span {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
   .navbar a {
-    margin-left: 8%;
+    margin-left: 5%;
   }
   .home {
     flex-direction: column;
