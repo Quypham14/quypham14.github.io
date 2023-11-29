@@ -10,7 +10,7 @@
   font-family: "Poppins", sans-serif;
 }
 html {
-  font-size: 75%;
+  font-size: 80%;
   overflow-x: hidden;
 }
 :root {
@@ -564,6 +564,8 @@ span {
   flex-direction: column;
   min-height: auto;
   padding-bottom: 5rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .footer {
   display: flex;
@@ -622,4 +624,89 @@ span {
 .footer-iconTop a i {
   font-size: 2.4rem;
   color: white;
+}
+
+/* BREAKPOINTS*/
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  .home-sci {
+    display: none;
+  }
+  .home-content a {
+    font-size: 2rem;
+    margin-bottom: 30%;
+  }
+}
+@media (max-width: 991px) {
+  .header {
+    padding: 2rem 4%;
+  }
+  .home-sci {
+    display: none;
+  }
+  section {
+    padding: 10rem 4% 2rem;
+  }
+  .home {
+    padding: 0 4%;
+  }
+  .footer {
+    padding: 2rem 4%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 0.5rem;
+    background: #0c1022;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+  }
+  .navbar {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+  .navbar a{
+    margin-left: 8%;
+  }
+  .home {
+    flex-direction: column;
+  }
+  .home-img {
+    order: 1;
+    margin-top: 25%;
+    font-size: 2rem;
+  }
+  .home-content {
+    order: 2;
+  }
+  .home-sci {
+    display: none;
+  }
+  .home-content {
+    align-items: center;
+    text-align: center;
+  }
+  .home-content h1 {
+    margin-top: 2%;
+    font-size: 3.5rem;
+  }
+  .home-content p {
+    font-size: 1.5rem;
+  }
+  .home-content a {
+    font-size: 2rem;
+    margin-bottom: 30%;
+  }
 }
